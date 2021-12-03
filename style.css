@@ -1,0 +1,89 @@
+
+
+.fon{
+    width:150px;
+    height:100px;
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+}
+.kryg{
+    background-color:rgb(187, 24, 13);
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+.a{
+    margin: 20px;
+    display: flex;
+}
+.inst{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.vnutri1{
+    left:38px;
+    top: 140px;
+position: absolute;
+  border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    border:5px solid white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.vnutri2{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border:6px solid white;
+}
+.tochka{
+    top:147px ;
+    position: absolute;
+    left: 100px;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background: whitesmoke;
+}
+
+
+.karandash{
+    display:flex;
+    flex-direction:row;
+}
+.perviy{
+    width:14px;
+    height:200px;
+    background-color:rgb(5, 104, 143);
+    border-radius:0px 150px 0 0;
+    border:2px solid rgb(3, 87, 121);
+}
+.vtoroy{
+    width:20px;
+    height:200px;
+    background-color:rgb(0, 129, 180);
+    border-radius:120px 120px 0 0;
+    border:2px solid rgb(3, 87, 121);
+}
+.tretiy{
+    width:14px;
+    height:200px;
+    background-color:rgb(5, 104, 143);
+    border-radius:150px 0px 0 0;
+    
+    border:2px solid rgb(3, 87, 121);
+}
+.grif{
+    width:20px;
+  height: 30px;
+  background: linear-gradient(to right , transparent 50%, red 50%) center top / 100% 50% no-repeat, linear-gradient(to right top, transparent 50%, red 50%) center bottom / 100% 50% no-repeat;
+    
+}
